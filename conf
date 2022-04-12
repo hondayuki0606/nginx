@@ -1,6 +1,14 @@
 ダウンロードファイル
 http://nginx.org/en/download.html
 
+ログ
+[12/Apr/2022:21:32:58 +0900] host: 127.0.0.1	user: -	request: GET / HTTP/1.1	status: 304	size: 0	referer: -	http_host: localhost	request_time: 0.000	content_type: -	accept_encoding: gzip, deflate, br	accept_language: ja,en-US;q=0.9,en;q=0.8	user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36	
+[12/Apr/2022:21:33:11 +0900] host: 127.0.0.1	user: -	request: GET / HTTP/1.1	status: 200	size: 612	referer: -	http_host: localhost	request_time: 0.000	content_type: text/html	accept_encoding: gzip, deflate	accept_language: -	user_agent: python-requests/2.27.1	
+[12/Apr/2022:21:37:06 +0900] host: 127.0.0.1	user: -	request: GET / HTTP/1.1	status: 200	size: 612	referer: -	http_host: localhost	request_time: 0.000	content_type: text/html	accept_encoding: identity	accept_language: -	user_agent: python-requests/2.27.1	
+[12/Apr/2022:21:38:11 +0900] host: 127.0.0.1	user: -	request: GET / HTTP/1.1	status: 200	size: 612	referer: -	http_host: localhost	request_time: 0.000	content_type: text/html	accept_encoding: identity	accept_language: -	user_agent: python-requests/2.27.1	
+[12/Apr/2022:21:39:58 +0900] host: 127.0.0.1	user: -	request: GET / HTTP/1.1	status: 200	size: 612	referer: -	http_host: localhost	request_time: 0.000	content_type: text/html	accept_encoding: none	accept_language: -	user_agent: python-requests/2.27.1	
+
+############# ここから下を使用する #############
 
 #user  nobody;
 worker_processes  1;
