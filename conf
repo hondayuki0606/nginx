@@ -1,3 +1,6 @@
+ダウンロードファイル
+http://nginx.org/en/download.html
+
 
 #user  nobody;
 worker_processes  1;
